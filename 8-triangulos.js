@@ -8,8 +8,15 @@ na primeira linha e adicionando um asterisco a cada linha subsequente.
 Você pode usar a função .repeat().
 
 Programa desenvolvido por:
- - Aluno 1
- - Aluno 2
- - Aluno 3
- - Aluno 4
+-kauany
+-Sandro
+-Sheldon
+-Suhaila
 */
+function drawTriangle (n){
+    for (let linha = 1;linha <= n;linha++){ 
+    let linhaAsteriscos = '*'.repeat(linha)
+    console.log(linhaAsteriscos)
+    }
+}
+drawTriangle(5)
